@@ -1,5 +1,6 @@
 body {
   font: 1em sans-serif;
+  align: center;
 }
 
 form {
@@ -27,9 +28,6 @@ p {
 p+p {
   margin : .5em 0 0;
 }
-#floatRight {
-  float: right;
-}
-#floatLeft {
-  float: left;
+#titleRecipe {
+  display: inline;
 }
