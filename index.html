@@ -10,7 +10,7 @@
 	<body>
 		<header>
 			<nav>
-				<section name="navBarLeft"></section>
+				<section name="navBarLeft" id="navBarR"></section>
 				<section name="navBarRight"></section>
 				<section name="navBarBottom"></section>
 			</nav>
@@ -18,10 +18,11 @@
 		<main>
 			<section name="recipeTitle">
 				<div name="recipeTitleText">
-					<div name="recipeName">
-						<div name="datePosted">
-							Posted on 15 Dec 2013 /Deserts
-						</div>
+					<div class="floatLeft" name="recipeName">
+						Choclate PIzza
+					</div>
+					<div class="floatRight" name="datePosted">
+						Posted on 15 Dec 2013 /Deserts
 					</div>
 				</div>
 				<div name="recipePrintButton">
@@ -44,12 +45,89 @@
 				<p></p>
 			</section>
 			<section name= "recipeIngredients">
-				<img src="list-bg.png">
+				<div name="checkboxBackground">
+					<img src="list-bg.png">	
+				</div>
+				<div>
+					<form name ="formLeft">
+					  <fieldset>
+					    <p>
+					      <input type="checkbox" id="first" name="list-1" value="Milk">
+					      <label for="first">1 1/2 cups milk</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="second" name="list-2" value="mascarpone" disabled>
+					      <label for="second"> 1/2 cup mascarpone</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="third" name="list-3" value="pinkSalt">
+					      <label for="third">1/2 tsb pink salt</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="fourth" name="list-4" value="figs" disabled>
+					      <label for="fourth">1 lb Black Mission Figs</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="fifth" name="list-5" value="sugar" disabled>
+					      <label for="fifth">1/2 cup brown sugar</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="sixth" name="list-6" value="water" disabled>
+					      <label for="">2-4 tbsp water</label>
+					    </p>
+					  </fieldset>
+					</form>
+				</div>
+				<div>
+					<form name ="formLeft">
+					  <fieldset>
+					    <p>
+					      <input type="checkbox" id="first2" name="list2-1" value="cream">
+					      <label for="first2">1 1/2 cups heavy cream</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="second2" name="list2-2" value="otherSugar" disabled>
+					      <label for="second2"> 1/3 granulated sugar</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="third2" name="list2-3" value="eggYolk">
+					      <label for="third2">2 egg yolks</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="fourth2" name="list2-4" value="lemon" disabled>
+					      <label for="fourth2">1 lemon. juiced</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="fifth2" name="list2-5" value="butter" disabled>
+					      <label for="fifth2">2 tbps butter</label>
+					    </p>
+					    <p>
+					      <input type="checkbox" id="sixth2" name="list2-6" value="pecans" disabled>
+					      <label for="sixth2">1 cup honey roasted oecans, roughly chopped</label>
+					    </p>
+					  </fieldset>
+					</form>
+				</div>
 			</section>
 			<section name="recipeAuthorInfo">
-				<div name="authorPicture"></div>
-				<div name="authorTextBox"></div>
-				<div name="shareRecipeButton"></div>
+				<div name="authorPicture">
+					<img src="van-pic.png">
+				</div>
+				<div name="authorTextBox">
+					<p>
+						Vanessa Stevenson
+					</p>
+					<p>
+						Food enthusiast, phtography fan. Add a pinch of raw foodism and that's pretty much who I am.
+					</p>
+				</div>
+				<div name="shareRecipeButton">
+					<button type="">
+						<a href="fakeShaePage.html">
+							Share Recipe
+						</a>
+					</button>
+				</div>
 			</section>
 		</main>
 		<footer>
